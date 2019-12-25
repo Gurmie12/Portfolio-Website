@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
+import profilePic from './Files/face_co.png'
 
 class LandingPage extends Component{
     render(){
@@ -8,7 +9,7 @@ class LandingPage extends Component{
                 <Grid className ="landingpage-grid">
                     <Cell col={12}>
                         <img 
-                        src="https://avachara.com/avatar/photo3.php?873747768"
+                        src={profilePic}
                         alt="Profile Picture"
                         className="profilepic"
                         />

@@ -15,6 +15,7 @@ function App() {
         <Layout>
             <Header className="header-color" title="Gurman Brar" scroll>
                 <Navigation>
+                        <Link to="/home">Home</Link>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
@@ -23,6 +24,7 @@ function App() {
             </Header>
             <Drawer title="Welcome!">
                 <Navigation>
+                        <Link to="/home">Home</Link>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>

@@ -158,34 +158,49 @@
   color: #203A43;
 }
 
-.resume-break img{
-  padding-left: 32%;
-  padding-top: 2em;
-  margin: auto;
-  justify-content: center;
-
-}
-
-.alert-system{
-  padding-left: 45%;
-  padding-top: 1em;
+.resume-image{
+  text-align: center;
 }
 
 .aboutme-grid{
   margin: auto;
-  height: 100%;
-  width: 90%;
 }
 
-.aboutme-grid h2{
+.aboutme-grid h3{
   text-align: center;
-  padding-top: 2px;
+  padding-top: 1px;
   padding-bottom: 1px;
   color: #2C5364;
+  font-family: 'Anton', cursive;
 }
 
 .aboutme-grid hr{
   border-top: 3px dotted #0F2027;
   width: 50%;
   margin: auto;
+  padding-top: 1px;
+  padding-bottom: 2px;
 }
+
+.alert-system{
+  text-align: center;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.aboutme-grid p{
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #2C5364;
+}
+
+.aboutme-grid h5{
+  text-align: center;
+  padding-bottom: 1px;
+  color: black;
+  font-family: 'Anton', cursive;
+}
+
+

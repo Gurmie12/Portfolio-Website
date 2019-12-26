@@ -13,12 +13,14 @@ class Resume extends Component{
                     <hr/>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     <a download href={file}>Download Resume here</a>
-                    <hr/> 
-                    <img
-                    src = {logo}
-                    alt = "Resume"
-                    style={{height:"750px", width:"750px"}}
-                    />
+                    <hr/>
+                    <div className="resume-image">
+                        <img
+                        src = {logo}
+                        alt = "Resume"
+                        style={{height:"750px", width:"750px"}}
+                        />
+                    </div> 
                 </div>
             </div>
         )

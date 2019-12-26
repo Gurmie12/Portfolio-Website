@@ -27,6 +27,22 @@ class Projects extends Component{
                     <IconButton style={{color:"black"}} name="Share"/>
                 </CardMenu>
             </Card>
+
+            <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://lh3.googleusercontent.com/UEZiga9OucUeU0UVoVAfJSxxQKyVkjX7c8DRpor3fXNOD0fTiBiMglpHC6hHRW7Jqu0) center / cover'}}>
+                SUMO bots 
+            </CardTitle>
+            <CardText>
+                Programmed an arduino using C++ inorder to carry out tasks such as avoid opposing robots, avoid specific colored lines,
+                change direction based on external sensor data to effectivley track and hit other robots.
+            </CardText>
+            <CardActions border>
+                <Button style={{color:"black"}}>GitHub</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <IconButton style={{color:"black"}} name="Share"/>
+            </CardMenu>
+            </Card>
             </div>
         )
         }
@@ -46,8 +62,24 @@ class Projects extends Component{
             <CardMenu style={{color: '#fff'}}>
                 <IconButton style={{color:"black"}} name="Share"/>
             </CardMenu>
-        </Card>
-        </div>
+            </Card>
+        
+            <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+                 <CardTitle style={{color: 'black', height: '176px', background: 'url(https://lh3.googleusercontent.com/UEZiga9OucUeU0UVoVAfJSxxQKyVkjX7c8DRpor3fXNOD0fTiBiMglpHC6hHRW7Jqu0) center / cover'}}>
+                     SUMO bots 
+                 </CardTitle>
+                 <CardText>
+                     Programmed an arduino using C++ inorder to carry out tasks such as avoid opposing robots, avoid specific colored lines,
+                     change direction based on external sensor data to effectivley track and hit other robots.
+                 </CardText>
+                 <CardActions border>
+                     <Button style={{color:"black"}}>GitHub</Button>
+                 </CardActions>
+                 <CardMenu style={{color: '#fff'}}>
+                     <IconButton style={{color:"black"}} name="Share"/>
+                 </CardMenu>
+            </Card>
+            </div>
         )
     }
     else if(this.state.activeTab === 2){

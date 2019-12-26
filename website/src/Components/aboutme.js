@@ -26,6 +26,7 @@ class AboutMe extends Component{
             <div className="aboutme">
                 <div className="alert-system">
                 <Button colored onClick={this.handleOpenDialog} raised ripple>Click here to be updated!</Button>
+                </div>
                 <Dialog open={this.state.openDialog}>
                 <DialogTitle style={{textAlign: 'center'}}>Smart Helmet</DialogTitle>
                 <DialogContent>
@@ -38,20 +39,20 @@ class AboutMe extends Component{
                     Done reading!</Button>
                 </DialogActions>
                 </Dialog>
-                </div>
-            <Grid className="aboutme-grid">
-                <Cell col={6} shadow={3}>
-                <h2>Experiances</h2>
-                <hr/>
-                <p>hello</p>
-                <br/>
-                <p></p>
-                </Cell>
-                <Cell col={6} shadow={3}>
-                <h2>Visuals</h2>
-                <hr/>
-                </Cell>
-            </Grid>
+                  <Grid className="aboutme-grid">
+                      <Cell col={6} shadow={3}>
+                      <h3>Experiances</h3>
+                      <hr/>
+                      <h5>St.Josephs Hospital</h5>
+                      <p>hello</p>
+                      <br/>
+                      <p></p>
+                      </Cell>
+                      <Cell col={6} shadow={3}>
+                      <h3>Visuals</h3>
+                      <hr/>
+                      </Cell>
+                  </Grid>
             </div>
         );
         }

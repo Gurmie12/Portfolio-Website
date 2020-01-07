@@ -61,7 +61,18 @@ class AboutMe extends Component{
                       </p>
                       <h5>North Eastern Trucking</h5>
                       <p>
-                        
+                        I had started my journey at North-Eastern Trucking almost 2 years ago during the summer of 2018. North Eastern Trucking 
+                        Is a local trucking company that calls Stoney Creek its home. During my capacity at this workplace I worked along-side the head auto-mechanic in the truck yard. We spent most of our times 
+                        making sure all the trucks and trailers are up to par with safety standards before they leave for their trips across the country. Some of the assignments we did included changing and fixing flat or broken tires,
+                        fixing the walls of trailers from cuts and broken scraps. Oil and filter changes were a regualr daily job. Some of our larger projects included fixing a totaled trailer by replacing all of the wall panels and support steel. Throughout my
+                        experiances at this company I gained many transferable skills such as team-work and communication. I also learned organization plays an exceptionally large role in having an efficeint work flow in a team setting. If we were not able to keep tools
+                        and parts organized, it would take longer to finish our jobs and in a time sensative role such as ours, there is no time to sacrafice. Problem solving is a large contributing facotor too, sometimes parts and tools dont work the way you expected them to
+                        and quick decisions need to be made to acheive the same results without sacrafising time and money. 
+                      </p>
+                      <h5>First Robotics Canada Team Mentor</h5>
+                      <p>
+                        Currently starting my role as a FRC mentor for the Glendale FRC team. Glendale was the highschool I attended in Hamilton and I was pleased to hear that I am able to go back and help the students in their 2020 FRC challenge Throughout
+                        help with programming and mechanical attributes of the robot. Keep updated on this website to hear more about the experiance and see some updated pictures. 
                       </p>
                       </Cell>
                       <Cell col={6} shadow={3}>

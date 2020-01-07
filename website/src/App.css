@@ -200,9 +200,36 @@
 
 .aboutme-grid h5{
   text-align: center;
-  padding-bottom: 1px;
   color: black;
   font-family: 'Anton', cursive;
+}
+
+.formBox{
+  justify-content: center;
+  padding-right: 50%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.message-box{
+  justify-content: center;
+  padding-right: 50%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+.formBox label{
+  padding-right: 2em;
+}
+
+.message-box label{
+  padding-right: 2em;
+  text-align: left;
+}
+
+.message-box input{
+  text-overflow: ellipsis;
 }
 
 

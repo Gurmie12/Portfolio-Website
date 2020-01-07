@@ -19,7 +19,7 @@ class LandingPage extends Component{
 
                         <hr/>
 
-                        <p>C# | HTML | REACT | NODE JS | PYTHON | CSS | MATLABS | SOLIDWORKS | CO-FOUNDER OF ALPHA SMART </p>
+                        <p>C# | HTML | REACT | NODE JS | PYTHON | CSS | MATLABS | SOLIDWORKS | CO-FOUNDER OF HELMI-CORP</p>
 
                         <hr/>
 

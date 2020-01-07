@@ -1,9 +1,53 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-import profilePic from './Files/face_co.png'
+import profilePic from './Files/face_co.png';
+var fs = require('fs');
 
 class Contact extends Component{
+
+    constructor(props){
+        super(props)
+        this.state= {
+            fullName: '',
+            company: '',
+            message: '',
+            email: ''
+        }
+    }
+
+        handleSubmmmit = (event) =>{
+        event.preventDefault()
+
+        const{fullName, company, email, message} = this.state
+
+        let contacts={
+            name: fullName,
+            company: company,
+            email: email,
+            message: message
+        }
+
+        
+        localStorage.setItem('contact',JSON.stringify(contacts))
+
+        alert('Thank you ' +  fullName + ' for your submission, I will be in contact soon!')
+    }
+
+    handleInputChange = (event) =>{
+
+        event.preventDefault()
+
+        this.setState({
+            [event.target.name]: event.target.value,
+            [event.target.company]: event.target.value,
+            [event.target.email]: event.target.value,
+            [event.target.message]: event.target.value
+        })
+    }
+
     render(){
+        const {fullName, company, message, email} = this.state
+
         return(
            <div className ="contact-body">
                <Grid className ="contact-grid">
@@ -40,6 +84,54 @@ class Contact extends Component{
                                     </ListItemContent>
                                 </ListItem>
                             </List>
+                            <form onSubmit={this.handleSubmmmit}>
+                                <div className="formBox">
+                                <label for="fullName">Name</label>
+                                <input 
+                                onChange={this.handleInputChange}
+                                type="text" 
+                                name="fullName" 
+                                placeholder="Your full name"
+                                value={fullName}
+                                />
+                                </div>
+
+                                <div className="formBox">
+                                <label for="company">Company</label>
+                                <input 
+                                 type="text" 
+                                 name="company" 
+                                 placeholder="Where do you work?"
+                                 value={company}
+                                 onChange={this.handleInputChange}
+                                 />
+                                </div>
+
+                                <div className="formBox">
+                                <label for="email">Email</label>
+                                <input
+                                type="text" 
+                                name="email" 
+                                placeholder="Your email"
+                                value={email}
+                                onChange={this.handleInputChange}
+                                />
+                                </div>
+
+                                <div className="message-box">
+                                <label for="message">Message</label>
+                                <input 
+                                type="text"
+                                name="message"
+                                value={message}
+                                onChange={this.handleInputChange}
+                                />
+                                </div>
+
+                                <div className="submit-button">
+                                <button type="submit">Click to submit!</button>
+                                </div>
+                            </form>
                         </div>
                    </Cell>
                </Grid>

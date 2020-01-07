@@ -194,6 +194,8 @@
   font-size: 19px;
   font-family: 'Times New Roman', Times, serif;
   color: #2C5364;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .aboutme-grid h5{

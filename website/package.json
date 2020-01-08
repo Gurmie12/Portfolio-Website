@@ -7,19 +7,12 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.0",
-<<<<<<< HEAD
     "netlify-cli": "^2.27.0",
-=======
-    "build": "^0.1.4",
-    "npm": "^6.13.4",
->>>>>>> cbadec58ac398e2b6bf4cc0682062162ec63f2f1
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
-    "run": "^1.4.0",
-    "sudo": "^1.0.3"
+    "react-scripts": "3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

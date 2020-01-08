@@ -1,15 +1,42 @@
 import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
-import profilePic from './Files/face_co.png'
+import profile from './Files/profile.png';
 
 class LandingPage extends Component{
+
+    constructor(props){
+        super(props);
+        this.state={
+            likes: 19,
+            updated: false
+        }
+    }
+    
+    updateLikes = () => {
+        if(!this.state.updated){
+            this.setState((prevState, props) =>{
+                return{
+                    likes: prevState.likes + 1,
+                    updated: true
+                };
+            });
+        } else{
+            this.setState((prevState, props)=>{
+                return{
+                    likes:prevState.likes - 1,
+                    updated: false
+                };
+            });
+        }
+    }
+    
     render(){
         return(
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className ="landingpage-grid">
                     <Cell col={12}>
                         <img 
-                        src={profilePic}
+                        src={profile}
                         alt="Profile Picture"
                         className="profilepic"
                         />
@@ -39,6 +66,11 @@ class LandingPage extends Component{
                         </div>
                         </div>  
                     </Cell>
+                    <div className="like-button">
+                    <button onClick={this.updateLikes} ripple>Let everyone know you visited!</button>
+                    <p>Visits: {this.state.likes}</p>
+                    </div>
+
                 </Grid>
             </div>
         )

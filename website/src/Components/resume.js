@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { promises } from 'dns';
 import logo from './Files/GurmanBrar-Resume.png';
 import file from './Files/GurmanBrar-Resume.pdf';
 

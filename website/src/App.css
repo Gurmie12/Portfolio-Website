@@ -204,32 +204,42 @@
   font-family: 'Anton', cursive;
 }
 
-.formBox{
+.google-form{
   justify-content: center;
-  padding-right: 50%;
   padding-top: 2em;
-  padding-bottom: 2em;
 }
 
-.message-box{
+.projects-grid{
+  display: flex;
+  padding-right: 2em;
+  padding-left: 2em;
   justify-content: center;
-  padding-right: 50%;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  
 }
 
-
-.formBox label{
-  padding-right: 2em;
+.visuals{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
-.message-box label{
-  padding-right: 2em;
-  text-align: left;
+.like-button{
+  padding-left: 80%;
+  padding-top: 9%;
 }
-
-.message-box input{
-  text-overflow: ellipsis;
+.like-button p{
+  padding-top: 3px;
+  font-weight: bold;
+  color: white;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  text-align: center;
 }
-
-
+.like-button button{
+  color: white;
+  font-family: 'VT323', monospace;
+  background-color: #203A43;
+  font-size: 25px;
+}

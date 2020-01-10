@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Button, Dialog, DialogActions, DialogContent, DialogTitle, Grid, Cell} from 'react-mdl'; 
 import peerMentor from './Files/mentor.png';
 import pc from './Files/PC.png';
+
 class AboutMe extends Component{
     constructor(props) {
         super(props);

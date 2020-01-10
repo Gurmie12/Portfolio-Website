@@ -20,6 +20,7 @@ function App() {
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
                         <Link to="/resume">Resume</Link>
+                        <Link to="/blog">Blog</Link>
                 </Navigation>
             </Header>
             <Drawer title="Welcome!">
@@ -29,6 +30,7 @@ function App() {
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
                         <Link to="/resume">Resume</Link>
+                        <Link to="/blog">Blog</Link>
                 </Navigation>
             </Drawer>
             <Content>

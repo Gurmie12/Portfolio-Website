@@ -7,7 +7,7 @@ class LandingPage extends Component{
     constructor(props){
         super(props);
         this.state={
-            likes: 19,
+            likes: 29,
             updated: false
         }
     }

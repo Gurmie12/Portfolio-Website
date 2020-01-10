@@ -243,3 +243,28 @@
   background-color: #203A43;
   font-size: 25px;
 }
+
+.blog-page {
+  justify-content: center;
+}
+
+.blog-page h1{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+}
+
+.blog-page h3{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'VT323', monospace;
+}
+
+.list{
+  padding-left: 40%;
+}
+
+.blog-posts{
+  display: flex;
+  padding-top: 3em;
+}

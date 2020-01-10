@@ -5,14 +5,11 @@ import {Card, CardTitle, CardText, CardActions, Button, List, ListItem, ListItem
 class Blog extends Component{
     render(){
         return(
-
-            <div className="intro-text">
-            <h1>Welcome to the Helmi-Corp Blog</h1>
-            <h3>The source for all updates and advances in the product and corporation</h3>
-            </div>
-            
-            <div clasName="list">
-            <List style={{width: '650px'}}>
+            <div className="blog-page">
+                <h1>Welcome to the Helmi-Corp Blog</h1>
+                <h3>The source for all updates and advances in the product and corporation</h3>
+            <div className="list">
+            <List style={{width: '400px'}}>
                 <ListItem threeLine>
                     <ListItemContent avatar="person" subtitle="Co-Founder of Helmi-Corp and student in Biomedical Engineering at University of Waterloo">Gurman Brar</ListItemContent>
                 </ListItem>
@@ -21,18 +18,25 @@ class Blog extends Component{
                 </ListItem>
             </List>
             </div>
-
-            <div className="blog-cards">
+            
+            <div className="blog-posts">
                 <Card shadow={3} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                    <CardTitle expand style={{color: '#fff', background: 'bottom right 15% no-repeat #46B6AC'}}>Helmi-Corp Launch</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: 'bottom right 15% no-repeat #2C5364'}}>Start of a journey</CardTitle>
                         <CardText>
-                            Descriptive text
+                            Today is the day we finalized the making of the Helmi-Corp brand. You can join us here on this blog to follow our progress on the prototype
+                            and all other iterations to this mission.
                         </CardText>
                     <CardActions border>
-                        <Button style={{color:'red'}}></Button>        
+                        <img
+                        src=''
+                        alt=""
+                        style={{}}
+                        />
                     </CardActions>
                 </Card>
+                </div>
             </div>
+
         );
     }
 }

@@ -56,7 +56,7 @@ class Blog extends Component{
             </div>
             
             <div className="blog-posts">
-                <Card shadow={3} style={{width: '490px', height: '580px', margin: 'auto'}}>
+                <Card shadow={3} style={{width: '490px', height: '650px', margin: 'auto'}}>
                     <CardTitle expand style={{color: '#fff', background: 'bottom right 15% no-repeat #2C5364'}}>Day 1 - Building of the chasis (Sat, Jan 11, 2019)</CardTitle>
                         <CardText>
                             Today we worked on constructing the chasis of the robot. We assembled the metal frame and installed the drive gears. This years chasis consists of a 6 wheel-drive train.
@@ -70,7 +70,7 @@ class Blog extends Component{
                             />
                         </CardText>
                     <CardActions border>
-                        <button border style={{color:'#2C5364', width:'75px', height:'60px'}} href="">Check the code out by clicking here</button>
+                        <button border style={{color:'#2C5364', width:'150px', height:'60px'}} href="">Check the code out by clicking here</button>
                     </CardActions>
                 </Card>
                 </div>

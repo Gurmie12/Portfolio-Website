@@ -57,12 +57,13 @@ class Blog extends Component{
             
             <div className="blog-posts">
                 <Card shadow={3} style={{width: '490px', height: '650px', margin: 'auto'}}>
-                    <CardTitle expand style={{color: '#fff', background: 'bottom right 15% no-repeat #2C5364'}}>Day 1 - Building of the chasis (Sat, Jan 11, 2019)</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: 'bottom right 15% no-repeat #2C5364'}}>Day 1 - Building of the chassis (Sat, Jan 11, 2019)</CardTitle>
                         <CardText>
-                            Today we worked on constructing the chasis of the robot. We assembled the metal frame and installed the drive gears. This years chasis consists of a 6 wheel-drive train.
-                            We incorporated the instalation of the gear box (for gear reduction) and all four of the drive motors. We began looking into the basics of the code, including object instantiation and
-                            method production to create a usable remote-control algorithim. The itinerary for next meeting would be to configure the wiring for the drive motors and the micro controller. We will also explore
-                            testing and debugging some of the code. 
+                        Today we worked on constructing the chassis of the robot. We assembled the metal frame and installed the drive gears.
+                         This year's chassis consists of a 6 wheel-drive train. We incorporated the installation of the gearbox (for gear reduction)
+                          and all four of the drive motors. We began looking into the basics of the code, including object instantiation and method production
+                           to create a usable remote-control algorithm. The itinerary for the next meeting would be to configure the wiring for the drive motors
+                            and the microcontroller. We will also explore testing and debugging some of the code. 
                             <img
                             src={day1pic}
                             alt="Robot"

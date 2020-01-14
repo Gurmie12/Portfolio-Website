@@ -70,7 +70,6 @@ class LandingPage extends Component{
                     <button onClick={this.updateLikes} ripple>Let everyone know you visited!</button>
                     <p>Visits: {this.state.likes}</p>
                     </div>
-
                 </Grid>
             </div>
         )

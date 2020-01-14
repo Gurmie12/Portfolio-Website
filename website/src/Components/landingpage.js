@@ -1,34 +1,21 @@
 import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
 import profile from './Files/profile.png';
+import Particles from 'react-particles-js';
+
+const particleOpt = {
+    particles: {
+        number: {
+            value: 1500,
+            density:{
+                enable: true,
+                value_area: 30
+            }
+        }
+    }
+}
 
 class LandingPage extends Component{
-
-    constructor(props){
-        super(props);
-        this.state={
-            likes: 47,
-            updated: false
-        }
-    }
-    
-    updateLikes = () => {
-        if(!this.state.updated){
-            this.setState((prevState, props) =>{
-                return{
-                    likes: prevState.likes + 1,
-                    updated: true
-                };
-            });
-        } else{
-            this.setState((prevState, props)=>{
-                return{
-                    likes:prevState.likes - 1,
-                    updated: false
-                };
-            });
-        }
-    }
     
     render(){
         return(
@@ -65,11 +52,8 @@ class LandingPage extends Component{
 
                         </div>
                         </div>  
+                        <Particles params={{particleOpt}}/>
                     </Cell>
-                    <div className="like-button">
-                    <button onClick={this.updateLikes} ripple>Let everyone know you visited!</button>
-                    <p>Visits: {this.state.likes}</p>
-                    </div>
                 </Grid>
             </div>
         )

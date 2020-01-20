@@ -225,25 +225,6 @@
   padding-bottom: 5em;
 }
 
-.like-button{
-  padding-left: 80%;
-  padding-top: 9%;
-}
-.like-button p{
-  padding-top: 3px;
-  font-weight: bold;
-  color: white;
-  font-family: 'VT323', monospace;
-  font-size: 30px;
-  text-align: center;
-}
-.like-button button{
-  color: white;
-  font-family: 'VT323', monospace;
-  background-color: #203A43;
-  font-size: 25px;
-}
-
 .blog-page {
   justify-content: center;
 }

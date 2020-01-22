@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Card, CardTitle, CardText, CardActions, Button, List, ListItem, ListItemContent, Tabs, Tab, Grid, Cell} from 'react-mdl';
 import day1pic from './Files/IMG_3502.JPG';
+import day2pic from './Files/FRC2.png';
 
 
 class Blog extends Component{
@@ -57,7 +58,7 @@ class Blog extends Component{
             
             <div className="blog-posts">
                 <Card shadow={3} style={{width: '490px', height: '650px', margin: 'auto'}}>
-                    <CardTitle expand style={{color: '#fff', background: 'bottom right 15% no-repeat #2C5364'}}>Day 1 - Building of the chassis (Sat, Jan 11, 2019)</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: 'bottom right 15% no-repeat #2C5364'}}>Day 1 - Building of the chassis (Sat, Jan 11, 2020)</CardTitle>
                         <CardText>
                         Today we worked on constructing the chassis of the robot. We assembled the metal frame and installed the drive gears.
                          This year's chassis consists of a 6 wheel-drive train. We incorporated the installation of the gearbox (for gear reduction)
@@ -71,7 +72,24 @@ class Blog extends Component{
                             />
                         </CardText>
                     <CardActions border>
-                        <button border style={{color:'#2C5364', width:'150px', height:'60px'}} href="">Check the code out by clicking here</button>
+                    </CardActions>
+                </Card>
+                <Card shadow={3} style={{width: '490px', height: '1000px', margin: 'auto'}}>
+                    <CardTitle expand style={{color: '#fff', background: 'bottom right 15% no-repeat #2C5364'}}>Day 2 - Beginning Code and Starting Circuitry (Sat, Jan 18, 2020)</CardTitle>
+                        <CardText>
+                        Over day 2 we began putting together some of the basic circuit components. We attached the battery to the main voltage divider (voltage gates) and began adding some of the 
+                        circuit breakers, one to the battery and one for each of the motor controllers in the voltage divider. We had connected four of the motor controllers to the voltage gate with two pairs in parallel. 
+                        This allowed us to connect the left and right sides of the chassis motor drive to each pair and therefore, control that side via two of the motor controllers via the same signal.
+                         After connecting these fundamental electrical components we began working on the code by adding some comments and cleaning up some of the syntaxes.
+                          I began teaching the team about object instantiation and class-method calling of certain objects.
+                            <img
+                            src={day2pic}
+                            alt="Robot"
+                            style={{width: '480px', height: '800x', paddingTop: '2em', paddingBottom: '1em'}}
+                            />
+                        </CardText>
+                    <CardActions border>
+                        <Button href="https://github.com/Gurmie12/FRC-Team-8403-Code-Java-" target="_blank" rel="noopener noreferrer" style={{color:'#2C5364', width:'300px', height:'35px'}} Border>Check the code out by clicking here</Button>
                     </CardActions>
                 </Card>
                 </div>

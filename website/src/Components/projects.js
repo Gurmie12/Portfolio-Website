@@ -39,7 +39,7 @@ class Projects extends Component{
                     <Button href="https://github.com/Gurmie12/VR-game-for-NASA-Space-Apps" target="_blank" rel="noopener noreferrer" style={{color:"#2C5364"}}>GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
-                    <h3 style={{color:'black'}}>C# / Swift</h3>
+                    <h3 style={{color:'black'}}>C#</h3>
                 </CardMenu>
             </Card>
 
@@ -79,7 +79,24 @@ class Projects extends Component{
                 <Button href="https://github.com/Gurmie12/3D-unity-runner-game" target="_blank" rel="noopener noreferrer" style={{color:"#2C5364"}}>GitHub</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-                <h3 style={{color:'black'}}>C# / Swift</h3>
+                <h3 style={{color:'black'}}>C#</h3>
+            </CardMenu>
+            </Card>
+
+            <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#2C5364', height: '176px', background: 'grey', fontWeight:'bold'}}>
+                FRC Team App
+            </CardTitle>
+            <CardText>
+            Developing an app with Xcode in Swift. Designed and integrated for the iPhone and will soon be published to the app store. Purpose of the app is to assist in the day-to-day 
+            activities of the FRC team I am currently mentoring. The app integrates Firebase which allows the creation of accounts for each student that are then saved in the cloud and can be used to login to the app. This allows it to be privately accessed by the FRC team 8403 members only. The app will contain meeting forms, safety documents, robot update and all other news regarding FRC.
+            Firebase used as data storage and user authentication.  
+            </CardText>
+            <CardActions border style={{background:'grey', fontWeight:'bold'}}>
+                <Button href="https://github.com/Gurmie12/FRC-Iphone-App-" target="_blank" rel="noopener noreferrer" style={{color:"#2C5364"}}>GitHub</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <h3 style={{color:'black'}}>Swift</h3>
             </CardMenu>
             </Card>
             </div>
@@ -162,7 +179,7 @@ class Projects extends Component{
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabID) => this.setState({activeTab: tabID})} ripple>
                     <Tab>
-                        C# / C++ / C
+                        C# / C++ / Swift
                     </Tab>
                     <Tab>
                         HTML

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './Files/GurmansResume.png';
-import file from './Files/GurmansResume.pdf';
+import logo from './Files/GurmanBrarsResume.png';
+import file from './Files/GurmanBrarsResume.pdf';
 
 
 class Resume extends Component{

@@ -122,6 +122,43 @@ class Projects extends Component{
                 <h4 style={{color:'black'}}> Node.js / React / HTML / CSS</h4>
             </CardMenu>
             </Card>
+
+            <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#2C5364', height: '176px', background: 'grey', fontWeight:'bold'}}>
+                COVID-19 Live Website 
+            </CardTitle>
+            <CardText>
+                
+            Programmed and developed a React application that makes use of API fetched to render collected data to the clients side. Uses JavaScript and Node.Js. Website delivers live updates on current statistics regarding the COVID-19 pandemic.
+
+            </CardText>
+            <CardActions border style={{background:'grey', fontWeight:'bold'}}>
+                <Button href="https://github.com/Gurmie12/COVID-19-FrontEnd" target="_blank" rel="noopener noreferrer" style={{color:"#2C5364"}}>GitHub</Button>
+                <Button href="https://livecovid.net" target="_blank" rel="noopener noreferrer" style={{color:"#2C5364"}}>Website</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <h4 style={{color:'black'}}> React.JS / HTML / API / Javascript</h4>
+            </CardMenu>
+            </Card>
+
+            <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#2C5364', height: '176px', background: 'grey', fontWeight:'bold'}}>
+                Project - Uni
+            </CardTitle>
+            <CardText>
+                
+            I know that sometimes it can be a difficult migration from highschool to university, regardless of the school. Especially due to current world circumstances, inquiring about specific topics at different schools can be an exceptionally demanding task.
+            This is why I decided to develop Project-Uni. Project-Uni is an online forum for current and future university students who want to ask specific questions about their future or current school/program.
+            This project was developed with pure HTML and Javascript, using Google Firebase authentication and Database API's to hold and secure user objects.
+            </CardText>
+            <CardActions border style={{background:'grey', fontWeight:'bold'}}>
+                <Button href="https://github.com/Gurmie12/Project-Uni" target="_blank" rel="noopener noreferrer" style={{color:"#2C5364"}}>GitHub</Button>
+                <Button href="https://project-uni.herokuapp.com/" target="_blank" rel="noopener noreferrer" style={{color:"#2C5364"}}>Website</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <h4 style={{color:'black'}}>HTML / Javascript / Google Firebase / API</h4>
+            </CardMenu>
+            </Card>
             </div>
         )
     }
@@ -182,7 +219,7 @@ class Projects extends Component{
                         C# / C++ / Swift
                     </Tab>
                     <Tab>
-                        HTML
+                        Web Development
                     </Tab>
                     <Tab>
                         Other
@@ -192,7 +229,7 @@ class Projects extends Component{
 
                     <Grid>
                         <Cell col={12}>
-                            <div className="content">
+                            <div className="content" style={{ justifyContent: 'center'}}>
                                 {this.toggleCategories()}
                             </div>
                         </Cell>

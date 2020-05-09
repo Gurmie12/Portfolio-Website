@@ -33,7 +33,7 @@ class LandingPage extends Component{
 
                         <hr/>
 
-                        <p>C# | HTML | REACT | NODE JS | PYTHON | CSS | MATLABS | SOLIDWORKS | CO-FOUNDER OF HELMI-CORP</p>
+                        <p>C# | HTML | REACT | NODE JS | PYTHON | JAVASCRIPT | FIREBASE | C++ | CO-FOUNDER OF HELMI-CORP</p>
 
                         <hr/>
 
